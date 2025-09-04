@@ -6,6 +6,7 @@ import lombok.ToString;
 import org.avi1606.hospital_managment.entity.type.bloodGroup;
 
 import java.time.LocalDate;
+import java.util.List;
 
 @Entity
 @ToString
@@ -36,5 +37,13 @@ public class Patient {
     @Enumerated(EnumType.STRING)
     @Column(name = "blood_group")
     private bloodGroup bloodGroup;
+
+    @OneToOne
+    @JoinColumn(name = "patient_insurance_id")
+    private Insurance insurance;
+
+    @OneToMany(mappedBy = "patient")
+    private List<Appointment> appointment;
+
 
 }

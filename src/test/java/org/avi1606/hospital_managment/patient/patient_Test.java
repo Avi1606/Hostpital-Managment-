@@ -34,6 +34,10 @@ public class patient_Test {
 
     @Test
     public void patient_find_test2() {
-        List<Patient> patients = patientRepository.findByNameContaining("Sne");
+        List<Patient> patients = patientRepository.findByNameContaining("Ra");
+
+        for (Patient p : patients) {
+            System.out.println(p);
+        }
     }
 }
