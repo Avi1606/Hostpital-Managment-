@@ -27,11 +27,12 @@ public class Appointment {
 
     private String status;
 
-    @Column(nullable = false)
-    private Long drId;
-
     @ManyToOne
     @JoinColumn(name = "Patient_id",nullable = false) // owner side
     private Patient patient;
+
+    @ManyToOne
+    @JoinColumn(name = "Doctor_id",nullable = false)
+    private Doctor doctor;
 
 }
