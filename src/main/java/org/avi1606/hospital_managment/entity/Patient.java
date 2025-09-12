@@ -2,6 +2,9 @@ package org.avi1606.hospital_managment.entity;
 
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
 import lombok.ToString;
 import org.avi1606.hospital_managment.entity.type.bloodGroup;
 
@@ -9,7 +12,8 @@ import java.time.LocalDate;
 import java.util.List;
 
 @Entity
-@ToString
+@Getter
+@Setter
 @Table(
         name = "patient_list",
         uniqueConstraints = {
