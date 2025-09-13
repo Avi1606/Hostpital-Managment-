@@ -1,0 +1,17 @@
+
+qD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\repository\InsuranceRepository.javaÇ
+=org.avi1606.hospital_managment.repository.InsuranceRepositoryTRAIT{
+qD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\repository\InsuranceRepository.java ($"4
+package)org.avi1606.hospital_managment.repository"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"»
+declarationString¥<mark class="modifier">public </mark><mark class="modifier">interface </mark>InsuranceRepository<mark class="modifier"> extends </mark>JpaRepository<Insurance, Long>"
+accesspublic*InsuranceRepository2¼
+5org.springframework.data.jpa.repository.JpaRepositoryEXTEND{
+qD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\repository\InsuranceRepository.java- (:2Ä
+/org.avi1606.hospital_managment.entity.InsuranceEXTEND_TYPE_ARGUMENT{
+qD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\repository\InsuranceRepository.java; (D2£
+java.lang.LongEXTEND_TYPE_ARGUMENT{
+qD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\repository\InsuranceRepository.javaF (J

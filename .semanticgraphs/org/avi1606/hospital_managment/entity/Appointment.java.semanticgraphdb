@@ -1,0 +1,80 @@
+
+eD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Appointment.javaÕ
+1org.avi1606.hospital_managment.entity.AppointmentCLASSo
+eD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Appointment.java ("0
+package%org.avi1606.hospital_managment.entity"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"„
+declarationStringÕ<mark class="annotation">@Entity</mark> <br><mark class="annotation">@Getter</mark> <br><mark class="annotation">@Setter</mark> <br><mark class="annotation">@RequiredArgsConstructor</mark> <br><mark class="annotation">@AllArgsConstructor</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>Appointment"
+accesspublic*Appointment2¿
+@org.avi1606.hospital_managment.entity.Appointment?id@20.17:20.19DECLARATIONo
+eD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Appointment.java (2∆
+Forg.avi1606.hospital_managment.entity.Appointment?dateTime@23.26:23.34DECLARATIONo
+eD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Appointment.java ("2…
+Iorg.avi1606.hospital_managment.entity.Appointment?description@25.19:25.30DECLARATIONo
+eD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Appointment.java (2ƒ
+Dorg.avi1606.hospital_managment.entity.Appointment?status@27.19:27.25DECLARATIONo
+eD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Appointment.java (2≈
+Eorg.avi1606.hospital_managment.entity.Appointment?patient@31.20:31.27DECLARATIONo
+eD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Appointment.java (2ƒ
+Dorg.avi1606.hospital_managment.entity.Appointment?doctor@35.19:35.25DECLARATIONo
+eD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Appointment.java# #(Æ
+@org.avi1606.hospital_managment.entity.Appointment?id@20.17:20.19VARIABLEo
+eD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Appointment.java ("
+isFinalfalse"
+typeLong"ê
+declarationString{<mark class="modifier">private </mark>Long <mark class="class-field">id</mark> = GenerationType.IDENTITY)
+private Long id;"
+isStaticfalse"
+accessprivate*id2ë
+jakarta.persistence.LongTYPEo
+eD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Appointment.java (£
+Forg.avi1606.hospital_managment.entity.Appointment?dateTime@23.26:23.34VARIABLEo
+eD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Appointment.java (""
+isFinalfalse"
+typeLocalDateTime"r
+declarationString]<mark class="modifier">private </mark>LocalDateTime <mark class="class-field">dateTime</mark>"
+isStaticfalse"
+accessprivate*dateTime2ê
+java.time.LocalDateTimeTYPEo
+eD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Appointment.java (°
+Iorg.avi1606.hospital_managment.entity.Appointment?description@25.19:25.30VARIABLEo
+eD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Appointment.java ("
+isFinalfalse"
+typeString"n
+declarationStringY<mark class="modifier">private </mark>String <mark class="class-field">description</mark>"
+isStaticfalse"
+accessprivate*description2ì
+jakarta.persistence.StringTYPEo
+eD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Appointment.java (í
+Dorg.avi1606.hospital_managment.entity.Appointment?status@27.19:27.25VARIABLEo
+eD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Appointment.java ("
+isFinalfalse"
+typeString"i
+declarationStringT<mark class="modifier">private </mark>String <mark class="class-field">status</mark>"
+isStaticfalse"
+accessprivate*status2ì
+jakarta.persistence.StringTYPEo
+eD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Appointment.java (§
+Eorg.avi1606.hospital_managment.entity.Appointment?patient@31.20:31.27VARIABLEo
+eD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Appointment.java ("
+isFinalfalse"
+typePatient"‰
+declarationStringŒ<mark class="modifier">private </mark>Patient <mark class="class-field">patient</mark> = "Patient_id"<mark class="modifier">,</mark> nullable = <mark class="modifier">false</mark>)
+private Patient patient;"
+isStaticfalse"
+accessprivate*patient2¶
+-org.avi1606.hospital_managment.entity.PatientTYPEo
+eD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Appointment.java (õ
+Dorg.avi1606.hospital_managment.entity.Appointment?doctor@35.19:35.25VARIABLEo
+eD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Appointment.java# #("
+isFinalfalse"
+typeDoctor"ﬂ
+declarationString…<mark class="modifier">private </mark>Doctor <mark class="class-field">doctor</mark> = "Doctor_id"<mark class="modifier">,</mark> nullable = <mark class="modifier">false</mark>)
+private Doctor doctor;"
+isStaticfalse"
+accessprivate*doctor2•
+,org.avi1606.hospital_managment.entity.DoctorTYPEo
+eD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Appointment.java# #(

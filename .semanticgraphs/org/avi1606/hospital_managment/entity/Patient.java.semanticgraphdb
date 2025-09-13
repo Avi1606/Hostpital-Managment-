@@ -1,0 +1,111 @@
+
+aD:/FS Project/Hospital_Managment/src/main/java/org/avi1606/hospital_managment/entity/Patient.javaÎ
+-org.avi1606.hospital_managment.entity.PatientCLASSk
+aD:/FS Project/Hospital_Managment/src/main/java/org/avi1606/hospital_managment/entity/Patient.java ("0
+package%org.avi1606.hospital_managment.entity"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"ª
+declarationString•<mark class="annotation">@Entity</mark> <br><mark class="annotation">@Getter</mark> <br><mark class="annotation">@Setter</mark> <br><mark class="annotation">@Table(name = "patient_list"<mark class="modifier">,</mark> uniqueConstraints = { // every email must be unique
+@UniqueConstraint(columnNames = { "email" }) }<mark class="modifier">,</mark> indexes = { @Index(name = "idx_patient_birthdate"<mark class="modifier">,</mark> columnList = "birthDate") })</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>Patient"
+accesspublic*Patient2∏
+<org.avi1606.hospital_managment.entity.Patient?id@25.17:25.19DECLARATIONk
+aD:/FS Project/Hospital_Managment/src/main/java/org/avi1606/hospital_managment/entity/Patient.java (2∫
+>org.avi1606.hospital_managment.entity.Patient?name@28.19:28.23DECLARATIONk
+aD:/FS Project/Hospital_Managment/src/main/java/org/avi1606/hospital_managment/entity/Patient.java (2ª
+?org.avi1606.hospital_managment.entity.Patient?email@30.19:30.24DECLARATIONk
+aD:/FS Project/Hospital_Managment/src/main/java/org/avi1606/hospital_managment/entity/Patient.java (2ø
+Corg.avi1606.hospital_managment.entity.Patient?birthDate@33.22:33.31DECLARATIONk
+aD:/FS Project/Hospital_Managment/src/main/java/org/avi1606/hospital_managment/entity/Patient.java! !(2º
+@org.avi1606.hospital_managment.entity.Patient?gender@35.19:35.25DECLARATIONk
+aD:/FS Project/Hospital_Managment/src/main/java/org/avi1606/hospital_managment/entity/Patient.java# #(2¿
+Dorg.avi1606.hospital_managment.entity.Patient?bloodGroup@39.23:39.33DECLARATIONk
+aD:/FS Project/Hospital_Managment/src/main/java/org/avi1606/hospital_managment/entity/Patient.java' '(!2ø
+Corg.avi1606.hospital_managment.entity.Patient?insurance@43.22:43.31DECLARATIONk
+aD:/FS Project/Hospital_Managment/src/main/java/org/avi1606/hospital_managment/entity/Patient.java+ +(2¡
+Eorg.avi1606.hospital_managment.entity.Patient?appointment@46.30:46.41DECLARATIONk
+aD:/FS Project/Hospital_Managment/src/main/java/org/avi1606/hospital_managment/entity/Patient.java. .()¢
+<org.avi1606.hospital_managment.entity.Patient?id@25.17:25.19VARIABLEk
+aD:/FS Project/Hospital_Managment/src/main/java/org/avi1606/hospital_managment/entity/Patient.java ("
+isFinalfalse"
+typeLong"ê
+declarationString{<mark class="modifier">private </mark>Long <mark class="class-field">id</mark> = GenerationType.IDENTITY)
+private Long id;"
+isStaticfalse"
+accessprivate*id2ç
+jakarta.persistence.LongTYPEk
+aD:/FS Project/Hospital_Managment/src/main/java/org/avi1606/hospital_managment/entity/Patient.java (§
+>org.avi1606.hospital_managment.entity.Patient?name@28.19:28.23VARIABLEk
+aD:/FS Project/Hospital_Managment/src/main/java/org/avi1606/hospital_managment/entity/Patient.java ("
+isFinalfalse"
+typeString"ä
+declarationStringu<mark class="modifier">private </mark>String <mark class="class-field">name</mark> = "patient")
+private String name;"
+isStaticfalse"
+accessprivate*name2è
+jakarta.persistence.StringTYPEk
+aD:/FS Project/Hospital_Managment/src/main/java/org/avi1606/hospital_managment/entity/Patient.java (É
+?org.avi1606.hospital_managment.entity.Patient?email@30.19:30.24VARIABLEk
+aD:/FS Project/Hospital_Managment/src/main/java/org/avi1606/hospital_managment/entity/Patient.java ("
+isFinalfalse"
+typeString"h
+declarationStringS<mark class="modifier">private </mark>String <mark class="class-field">email</mark>"
+isStaticfalse"
+accessprivate*email2è
+jakarta.persistence.StringTYPEk
+aD:/FS Project/Hospital_Managment/src/main/java/org/avi1606/hospital_managment/entity/Patient.java (æ
+Corg.avi1606.hospital_managment.entity.Patient?birthDate@33.22:33.31VARIABLEk
+aD:/FS Project/Hospital_Managment/src/main/java/org/avi1606/hospital_managment/entity/Patient.java! !("
+isFinalfalse"
+type	LocalDate"û
+declarationStringà<mark class="modifier">private </mark>LocalDate <mark class="class-field">birthDate</mark> = "birth_date")
+private LocalDate birthDate;"
+isStaticfalse"
+accessprivate*	birthDate2à
+java.time.LocalDateTYPEk
+aD:/FS Project/Hospital_Managment/src/main/java/org/avi1606/hospital_managment/entity/Patient.java! !(Ü
+@org.avi1606.hospital_managment.entity.Patient?gender@35.19:35.25VARIABLEk
+aD:/FS Project/Hospital_Managment/src/main/java/org/avi1606/hospital_managment/entity/Patient.java# #("
+isFinalfalse"
+typeString"i
+declarationStringT<mark class="modifier">private </mark>String <mark class="class-field">gender</mark>"
+isStaticfalse"
+accessprivate*gender2è
+jakarta.persistence.StringTYPEk
+aD:/FS Project/Hospital_Managment/src/main/java/org/avi1606/hospital_managment/entity/Patient.java# #(Ë
+Dorg.avi1606.hospital_managment.entity.Patient?bloodGroup@39.23:39.33VARIABLEk
+aD:/FS Project/Hospital_Managment/src/main/java/org/avi1606/hospital_managment/entity/Patient.java' '(!"
+isFinalfalse"
+type
+bloodGroup"£
+declarationStringç<mark class="modifier">private </mark>bloodGroup <mark class="class-field">bloodGroup</mark> = "blood_group")
+private bloodGroup bloodGroup;"
+isStaticfalse"
+accessprivate*
+bloodGroup2™
+5org.avi1606.hospital_managment.entity.type.bloodGroupTYPEk
+aD:/FS Project/Hospital_Managment/src/main/java/org/avi1606/hospital_managment/entity/Patient.java' '(§
+Corg.avi1606.hospital_managment.entity.Patient?insurance@43.22:43.31VARIABLEk
+aD:/FS Project/Hospital_Managment/src/main/java/org/avi1606/hospital_managment/entity/Patient.java+ +("
+isFinalfalse"
+type	Insurance"Ë
+declarationString“<mark class="modifier">private </mark>Insurance <mark class="class-field">insurance</mark> = { CascadeType.MERGE, CascadeType.PERSIST })
+@JoinColumn(name = "patient_insurance_id")
+private Insurance insurance;"
+isStaticfalse"
+accessprivate*	insurance2§
+/org.avi1606.hospital_managment.entity.InsuranceTYPEk
+aD:/FS Project/Hospital_Managment/src/main/java/org/avi1606/hospital_managment/entity/Patient.java+ +(à
+Eorg.avi1606.hospital_managment.entity.Patient?appointment@46.30:46.41VARIABLEk
+aD:/FS Project/Hospital_Managment/src/main/java/org/avi1606/hospital_managment/entity/Patient.java. .()"
+isFinalfalse"
+typeList<Appointment>"Ø
+declarationStringô<mark class="modifier">private </mark>List<Appointment> <mark class="class-field">appointment</mark> = "patient")
+private List<Appointment> appointment;"
+isStaticfalse"
+accessprivate*appointment2É
+java.util.ListTYPEk
+aD:/FS Project/Hospital_Managment/src/main/java/org/avi1606/hospital_managment/entity/Patient.java. .(2Ø
+1org.avi1606.hospital_managment.entity.AppointmentTYPE_ARGUMENTk
+aD:/FS Project/Hospital_Managment/src/main/java/org/avi1606/hospital_managment/entity/Patient.java. .(

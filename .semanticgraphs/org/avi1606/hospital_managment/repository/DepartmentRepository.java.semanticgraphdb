@@ -1,0 +1,17 @@
+
+rD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\repository\DepartmentRepository.javaÒ
+>org.avi1606.hospital_managment.repository.DepartmentRepositoryTRAIT|
+rD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\repository\DepartmentRepository.java (%"4
+package)org.avi1606.hospital_managment.repository"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"¾
+declarationString¨<mark class="modifier">public </mark><mark class="modifier">interface </mark>DepartmentRepository<mark class="modifier"> extends </mark>JpaRepository<Deparatment, Long>"
+accesspublic*DepartmentRepository2½
+5org.springframework.data.jpa.repository.JpaRepositoryEXTEND|
+rD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\repository\DepartmentRepository.java. (;2Ç
+1org.avi1606.hospital_managment.entity.DeparatmentEXTEND_TYPE_ARGUMENT|
+rD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\repository\DepartmentRepository.java< (G2¤
+java.lang.LongEXTEND_TYPE_ARGUMENT|
+rD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\repository\DepartmentRepository.javaI (M

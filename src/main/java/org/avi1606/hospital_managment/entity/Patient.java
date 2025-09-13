@@ -2,10 +2,7 @@ package org.avi1606.hospital_managment.entity;
 
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
 import org.avi1606.hospital_managment.entity.type.bloodGroup;
 
 import java.time.LocalDate;
@@ -42,11 +39,11 @@ public class Patient {
     @Column(name = "blood_group")
     private bloodGroup bloodGroup;
 
-    @OneToOne
+    @OneToOne(cascade = {CascadeType.MERGE,CascadeType.PERSIST})
     @JoinColumn(name = "patient_insurance_id")
     private Insurance insurance;
 
-    @OneToMany(mappedBy = "patient")
+    @OneToMany(mappedBy = "patient",cascade = {CascadeType.REMOVE},orphanRemoval = true)
     private List<Appointment> appointment;
 
 

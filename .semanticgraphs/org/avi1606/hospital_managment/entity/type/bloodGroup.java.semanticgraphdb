@@ -1,0 +1,56 @@
+
+iD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\type\bloodGroup.java¼
+5org.avi1606.hospital_managment.entity.type.bloodGroupENUMs
+iD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\type\bloodGroup.java ("B
+declarationString-<mark class="modifier">enum </mark>bloodGroup*
+bloodGroup2Ä
+@org.avi1606.hospital_managment.entity.type.bloodGroup?A_POSITIVEDECLARATIONs
+iD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\type\bloodGroup.java (2Ä
+@org.avi1606.hospital_managment.entity.type.bloodGroup?A_NEGATIVEDECLARATIONs
+iD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\type\bloodGroup.java (2Ä
+@org.avi1606.hospital_managment.entity.type.bloodGroup?B_POSITIVEDECLARATIONs
+iD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\type\bloodGroup.java (2Ä
+@org.avi1606.hospital_managment.entity.type.bloodGroup?B_NEGATIVEDECLARATIONs
+iD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\type\bloodGroup.java (2Å
+Aorg.avi1606.hospital_managment.entity.type.bloodGroup?AB_POSITIVEDECLARATIONs
+iD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\type\bloodGroup.java (2Å
+Aorg.avi1606.hospital_managment.entity.type.bloodGroup?AB_NEGATIVEDECLARATIONs
+iD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\type\bloodGroup.java (2Ä
+@org.avi1606.hospital_managment.entity.type.bloodGroup?O_POSITIVEDECLARATIONs
+iD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\type\bloodGroup.java	 	(2Ä
+@org.avi1606.hospital_managment.entity.type.bloodGroup?O_NEGATIVEDECLARATIONs
+iD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\type\bloodGroup.java
+ 
+(Ø
+@org.avi1606.hospital_managment.entity.type.bloodGroup?A_POSITIVEVALUEs
+iD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\type\bloodGroup.java ("
+enumtrue*
+A_POSITIVEØ
+@org.avi1606.hospital_managment.entity.type.bloodGroup?A_NEGATIVEVALUEs
+iD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\type\bloodGroup.java ("
+enumtrue*
+A_NEGATIVEØ
+@org.avi1606.hospital_managment.entity.type.bloodGroup?B_POSITIVEVALUEs
+iD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\type\bloodGroup.java ("
+enumtrue*
+B_POSITIVEØ
+@org.avi1606.hospital_managment.entity.type.bloodGroup?B_NEGATIVEVALUEs
+iD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\type\bloodGroup.java ("
+enumtrue*
+B_NEGATIVEÚ
+Aorg.avi1606.hospital_managment.entity.type.bloodGroup?AB_POSITIVEVALUEs
+iD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\type\bloodGroup.java ("
+enumtrue*AB_POSITIVEÚ
+Aorg.avi1606.hospital_managment.entity.type.bloodGroup?AB_NEGATIVEVALUEs
+iD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\type\bloodGroup.java ("
+enumtrue*AB_NEGATIVEØ
+@org.avi1606.hospital_managment.entity.type.bloodGroup?O_POSITIVEVALUEs
+iD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\type\bloodGroup.java	 	("
+enumtrue*
+O_POSITIVEØ
+@org.avi1606.hospital_managment.entity.type.bloodGroup?O_NEGATIVEVALUEs
+iD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\type\bloodGroup.java
+ 
+("
+enumtrue*
+O_NEGATIVE

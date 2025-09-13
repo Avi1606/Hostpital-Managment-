@@ -1,0 +1,35 @@
+
+oD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\HospitalManagmentApplication.javañ
+;org.avi1606.hospital_managment.HospitalManagmentApplicationCLASSy
+oD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\HospitalManagmentApplication.java ()")
+packageorg.avi1606.hospital_managment"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"¶
+declarationString <mark class="annotation">@SpringBootApplication</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>HospitalManagmentApplication"
+accesspublic*HospitalManagmentApplication2Þ
+Torg.avi1606.hospital_managment.HospitalManagmentApplication.main(java.lang.String[])DECLARATIONy
+oD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\HospitalManagmentApplication.java (Á
+Torg.avi1606.hospital_managment.HospitalManagmentApplication.main(java.lang.String[])METHODy
+oD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\HospitalManagmentApplication.java ("
+isFinalfalse"²
+declarationStringœ<mark class="modifier">public </mark><mark class="modifier">static </mark><mark class="modifier">void</mark> <mark class="method">main</mark>(String[] args)"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typevoid*main2Ü
+Yorg.avi1606.hospital_managment.HospitalManagmentApplication.main(java.lang.String[])!argsCALLy
+oD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\HospitalManagmentApplication.java	B 	(F2á
+Yorg.avi1606.hospital_managment.HospitalManagmentApplication.main(java.lang.String[])!args	PARAMETERy
+oD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\HospitalManagmentApplication.java% ()2Ž
+voidRETURN_TYPEy
+oD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\HospitalManagmentApplication.java (Ç
+Yorg.avi1606.hospital_managment.HospitalManagmentApplication.main(java.lang.String[])!args	PARAMETERy
+oD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\HospitalManagmentApplication.java% ()"
+typeString[]"
+isFinalfalse""
+declarationStringString[] args*args2•
+java.lang.String[]TYPEy
+oD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\HospitalManagmentApplication.java ($

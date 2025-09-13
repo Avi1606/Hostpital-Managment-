@@ -1,0 +1,84 @@
+
+cD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Insurance.java‹
+/org.avi1606.hospital_managment.entity.InsuranceCLASSm
+cD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Insurance.java ("0
+package%org.avi1606.hospital_managment.entity"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"à
+declarationStringÚ<mark class="annotation">@Entity</mark> <br><mark class="annotation">@Getter</mark> <br><mark class="annotation">@Setter</mark> <br><mark class="annotation">@AllArgsConstructor</mark> <br><mark class="annotation">@NoArgsConstructor</mark> <br><mark class="annotation">@Builder</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>Insurance"
+accesspublic*	Insurance2º
+>org.avi1606.hospital_managment.entity.Insurance?id@16.17:16.19DECLARATIONm
+cD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Insurance.java (2∆
+Horg.avi1606.hospital_managment.entity.Insurance?policyNumber@19.19:19.31DECLARATIONm
+cD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Insurance.java (2¬
+Dorg.avi1606.hospital_managment.entity.Insurance?provider@22.19:22.27DECLARATIONm
+cD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Insurance.java (2ƒ
+Forg.avi1606.hospital_managment.entity.Insurance?validUntil@25.19:25.29DECLARATIONm
+cD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Insurance.java (2√
+Eorg.avi1606.hospital_managment.entity.Insurance?createdAt@29.19:29.28DECLARATIONm
+cD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Insurance.java (2¡
+Corg.avi1606.hospital_managment.entity.Insurance?patient@32.20:32.27DECLARATIONm
+cD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Insurance.java   (®
+>org.avi1606.hospital_managment.entity.Insurance?id@16.17:16.19VARIABLEm
+cD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Insurance.java ("
+isFinalfalse"
+typeLong"ê
+declarationString{<mark class="modifier">private </mark>Long <mark class="class-field">id</mark> = GenerationType.IDENTITY)
+private Long id;"
+isStaticfalse"
+accessprivate*id2è
+jakarta.persistence.LongTYPEm
+cD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Insurance.java (ü
+Horg.avi1606.hospital_managment.entity.Insurance?policyNumber@19.19:19.31VARIABLEm
+cD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Insurance.java ("
+isFinalfalse"
+typeString"Ô
+declarationStringŸ<mark class="modifier">private </mark>String <mark class="class-field">policyNumber</mark> = <mark class="modifier">false</mark><mark class="modifier">,</mark> unique = true, length = 50)
+private String policyNumber;"
+isStaticfalse"
+accessprivate*policyNumber2ë
+jakarta.persistence.StringTYPEm
+cD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Insurance.java (Å
+Dorg.avi1606.hospital_managment.entity.Insurance?provider@22.19:22.27VARIABLEm
+cD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Insurance.java ("
+isFinalfalse"
+typeString"Ÿ
+declarationString√<mark class="modifier">private </mark>String <mark class="class-field">provider</mark> = <mark class="modifier">false</mark><mark class="modifier">,</mark> length = 100)
+private String provider;"
+isStaticfalse"
+accessprivate*provider2ë
+jakarta.persistence.StringTYPEm
+cD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Insurance.java (›
+Forg.avi1606.hospital_managment.entity.Insurance?validUntil@25.19:25.29VARIABLEm
+cD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Insurance.java ("
+isFinalfalse"
+typeString"±
+declarationStringõ<mark class="modifier">private </mark>String <mark class="class-field">validUntil</mark> = <mark class="modifier">false</mark>)
+private String validUntil;"
+isStaticfalse"
+accessprivate*
+validUntil2ë
+jakarta.persistence.StringTYPEm
+cD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Insurance.java (®
+Eorg.avi1606.hospital_managment.entity.Insurance?createdAt@29.19:29.28VARIABLEm
+cD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Insurance.java ("
+isFinalfalse"
+typeString"˛
+declarationStringË<mark class="modifier">private </mark>String <mark class="class-field">createdAt</mark> = <mark class="modifier">false</mark><mark class="modifier">,</mark> updatable = <mark class="modifier">false</mark>)
+private String createdAt;"
+isStaticfalse"
+accessprivate*	createdAt2ë
+jakarta.persistence.StringTYPEm
+cD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Insurance.java (Œ
+Corg.avi1606.hospital_managment.entity.Insurance?patient@32.20:32.27VARIABLEm
+cD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Insurance.java   ("
+isFinalfalse"
+typePatient"î
+declarationString<mark class="modifier">private </mark>Patient <mark class="class-field">patient</mark> = "insurance")
+private Patient patient;"
+isStaticfalse"
+accessprivate*patient2§
+-org.avi1606.hospital_managment.entity.PatientTYPEm
+cD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Insurance.java   (

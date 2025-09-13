@@ -1,0 +1,70 @@
+
+qD:/FS Project/Hospital_Managment/src/test/java/org/avi1606/hospital_managment/DataBase_Testing/InsuranceTest.javaº
+=org.avi1606.hospital_managment.DataBase_Testing.InsuranceTestCLASS{
+qD:/FS Project/Hospital_Managment/src/test/java/org/avi1606/hospital_managment/DataBase_Testing/InsuranceTest.java (":
+package/org.avi1606.hospital_managment.DataBase_Testing"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"†
+declarationStringä<mark class="annotation">@SpringBootTest</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>InsuranceTest"
+accesspublic*InsuranceTest2–
+Dorg.avi1606.hospital_managment.DataBase_Testing.InsuranceTest.test()DECLARATION{
+qD:/FS Project/Hospital_Managment/src/test/java/org/avi1606/hospital_managment/DataBase_Testing/InsuranceTest.java (2Ê
+Zorg.avi1606.hospital_managment.DataBase_Testing.InsuranceTest?insuranceService@14.29:14.45DECLARATION{
+qD:/FS Project/Hospital_Managment/src/test/java/org/avi1606/hospital_managment/DataBase_Testing/InsuranceTest.java (-Ø
+Dorg.avi1606.hospital_managment.DataBase_Testing.InsuranceTest.test()METHOD{
+qD:/FS Project/Hospital_Managment/src/test/java/org/avi1606/hospital_managment/DataBase_Testing/InsuranceTest.java ("
+isFinalfalse"™
+declarationStringî<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">test</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*test2ò
+íorg.avi1606.hospital_managment.services.InsuranceService.assignInsuranceToPatient(org.avi1606.hospital_managment.entity.Insurance, java.lang.Long)CALL{
+qD:/FS Project/Hospital_Managment/src/test/java/org/avi1606/hospital_managment/DataBase_Testing/InsuranceTest.java+ (C2≤
+-java.io.PrintStream.println(java.lang.Object)CALL{
+qD:/FS Project/Hospital_Managment/src/test/java/org/avi1606/hospital_managment/DataBase_Testing/InsuranceTest.java (2ﬂ
+Zorg.avi1606.hospital_managment.DataBase_Testing.InsuranceTest?insuranceService@14.29:14.45CALL{
+qD:/FS Project/Hospital_Managment/src/test/java/org/avi1606/hospital_managment/DataBase_Testing/InsuranceTest.java (*2ﬂ
+Zorg.avi1606.hospital_managment.DataBase_Testing.InsuranceTest.test()?insurance@18.18:18.27CALL{
+qD:/FS Project/Hospital_Managment/src/test/java/org/avi1606/hospital_managment/DataBase_Testing/InsuranceTest.javaD (M2›
+Xorg.avi1606.hospital_managment.DataBase_Testing.InsuranceTest.test()?patient@24.16:24.23CALL{
+qD:/FS Project/Hospital_Managment/src/test/java/org/avi1606/hospital_managment/DataBase_Testing/InsuranceTest.java ("2Ê
+Zorg.avi1606.hospital_managment.DataBase_Testing.InsuranceTest.test()?insurance@18.18:18.27DECLARATION{
+qD:/FS Project/Hospital_Managment/src/test/java/org/avi1606/hospital_managment/DataBase_Testing/InsuranceTest.java (2‰
+Xorg.avi1606.hospital_managment.DataBase_Testing.InsuranceTest.test()?patient@24.16:24.23DECLARATION{
+qD:/FS Project/Hospital_Managment/src/test/java/org/avi1606/hospital_managment/DataBase_Testing/InsuranceTest.java (2ê
+voidRETURN_TYPE{
+qD:/FS Project/Hospital_Managment/src/test/java/org/avi1606/hospital_managment/DataBase_Testing/InsuranceTest.java (ó
+Zorg.avi1606.hospital_managment.DataBase_Testing.InsuranceTest.test()?insurance@18.18:18.27VARIABLE{
+qD:/FS Project/Hospital_Managment/src/test/java/org/avi1606/hospital_managment/DataBase_Testing/InsuranceTest.java ("
+type	Insurance"
+isFinalfalse" 
+declarationString¥<mark class="modifier"> </mark>Insurance <mark class="class-field">insurance</mark> = Insurance.builder().policyNumber("123456789").provider("XYZ").validUntil("2021-01-01").build()*	insurance2¥
+/org.avi1606.hospital_managment.entity.InsuranceTYPE{
+qD:/FS Project/Hospital_Managment/src/test/java/org/avi1606/hospital_managment/DataBase_Testing/InsuranceTest.java (ƒ
+
+Xorg.avi1606.hospital_managment.DataBase_Testing.InsuranceTest.test()?patient@24.16:24.23VARIABLE{
+qD:/FS Project/Hospital_Managment/src/test/java/org/avi1606/hospital_managment/DataBase_Testing/InsuranceTest.java ("
+typePatient"
+isFinalfalse"†
+declarationStringä<mark class="modifier"> </mark>Patient <mark class="class-field">patient</mark> = insuranceService.assignInsuranceToPatient(insurance, 1L)*patient2≤
+-org.avi1606.hospital_managment.entity.PatientTYPE{
+qD:/FS Project/Hospital_Managment/src/test/java/org/avi1606/hospital_managment/DataBase_Testing/InsuranceTest.java (2ò
+íorg.avi1606.hospital_managment.services.InsuranceService.assignInsuranceToPatient(org.avi1606.hospital_managment.entity.Insurance, java.lang.Long)CALL{
+qD:/FS Project/Hospital_Managment/src/test/java/org/avi1606/hospital_managment/DataBase_Testing/InsuranceTest.java+ (C2ﬂ
+Zorg.avi1606.hospital_managment.DataBase_Testing.InsuranceTest?insuranceService@14.29:14.45CALL{
+qD:/FS Project/Hospital_Managment/src/test/java/org/avi1606/hospital_managment/DataBase_Testing/InsuranceTest.java (*2ﬂ
+Zorg.avi1606.hospital_managment.DataBase_Testing.InsuranceTest.test()?insurance@18.18:18.27CALL{
+qD:/FS Project/Hospital_Managment/src/test/java/org/avi1606/hospital_managment/DataBase_Testing/InsuranceTest.javaD (MÜ
+Zorg.avi1606.hospital_managment.DataBase_Testing.InsuranceTest?insuranceService@14.29:14.45VARIABLE{
+qD:/FS Project/Hospital_Managment/src/test/java/org/avi1606/hospital_managment/DataBase_Testing/InsuranceTest.java (-"
+isFinalfalse"
+typeInsuranceService"}
+declarationStringh<mark class="modifier">private </mark>InsuranceService <mark class="class-field">insuranceService</mark>"
+isStaticfalse"
+accessprivate*insuranceService2Ω
+8org.avi1606.hospital_managment.services.InsuranceServiceTYPE{
+qD:/FS Project/Hospital_Managment/src/test/java/org/avi1606/hospital_managment/DataBase_Testing/InsuranceTest.java (

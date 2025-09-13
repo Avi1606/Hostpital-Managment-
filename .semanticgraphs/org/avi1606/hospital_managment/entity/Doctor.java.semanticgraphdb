@@ -1,0 +1,87 @@
+
+`D:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Doctor.java˝
+,org.avi1606.hospital_managment.entity.DoctorCLASSj
+`D:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Doctor.java ("0
+package%org.avi1606.hospital_managment.entity"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"ÿ
+declarationString¬<mark class="annotation">@Entity</mark> <br><mark class="annotation">@Getter</mark> <br><mark class="annotation">@Setter</mark> <br><mark class="annotation">@AllArgsConstructor</mark> <br><mark class="annotation">@NoArgsConstructor</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>Doctor"
+accesspublic*Doctor2∂
+;org.avi1606.hospital_managment.entity.Doctor?id@19.17:19.19DECLARATIONj
+`D:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Doctor.java (2∏
+=org.avi1606.hospital_managment.entity.Doctor?name@22.19:22.23DECLARATIONj
+`D:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Doctor.java (2¡
+Forg.avi1606.hospital_managment.entity.Doctor?specializatio@25.19:25.32DECLARATIONj
+`D:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Doctor.java ( 2π
+>org.avi1606.hospital_managment.entity.Doctor?email@28.19:28.24DECLARATIONj
+`D:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Doctor.java (2ø
+Dorg.avi1606.hospital_managment.entity.Doctor?appointment@31.30:31.41DECLARATIONj
+`D:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Doctor.java ()2ø
+Dorg.avi1606.hospital_managment.entity.Doctor?departments@34.30:34.41DECLARATIONj
+`D:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Doctor.java" "()ü
+;org.avi1606.hospital_managment.entity.Doctor?id@19.17:19.19VARIABLEj
+`D:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Doctor.java ("
+isFinalfalse"
+typeLong"ê
+declarationString{<mark class="modifier">private </mark>Long <mark class="class-field">id</mark> = GenerationType.IDENTITY)
+private Long id;"
+isStaticfalse"
+accessprivate*id2å
+jakarta.persistence.LongTYPEj
+`D:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Doctor.java (º
+=org.avi1606.hospital_managment.entity.Doctor?name@22.19:22.23VARIABLEj
+`D:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Doctor.java ("
+isFinalfalse"
+typeString"•
+declarationStringè<mark class="modifier">private </mark>String <mark class="class-field">name</mark> = <mark class="modifier">false</mark>)
+private String name;"
+isStaticfalse"
+accessprivate*name2é
+jakarta.persistence.StringTYPEj
+`D:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Doctor.java (‡
+Forg.avi1606.hospital_managment.entity.Doctor?specializatio@25.19:25.32VARIABLEj
+`D:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Doctor.java ( "
+isFinalfalse"
+typeString"∑
+declarationString°<mark class="modifier">private </mark>String <mark class="class-field">specializatio</mark> = <mark class="modifier">false</mark>)
+private String specializatio;"
+isStaticfalse"
+accessprivate*specializatio2é
+jakarta.persistence.StringTYPEj
+`D:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Doctor.java (Ì
+>org.avi1606.hospital_managment.entity.Doctor?email@28.19:28.24VARIABLEj
+`D:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Doctor.java ("
+isFinalfalse"
+typeString"‘
+declarationStringæ<mark class="modifier">private </mark>String <mark class="class-field">email</mark> = <mark class="modifier">false</mark><mark class="modifier">,</mark> unique = true)
+private String email;"
+isStaticfalse"
+accessprivate*email2é
+jakarta.persistence.StringTYPEj
+`D:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Doctor.java (É
+Dorg.avi1606.hospital_managment.entity.Doctor?appointment@31.30:31.41VARIABLEj
+`D:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Doctor.java ()"
+isFinalfalse"
+typeList<Appointment>"Æ
+declarationStringò<mark class="modifier">private </mark>List<Appointment> <mark class="class-field">appointment</mark> = "doctor")
+private List<Appointment> appointment;"
+isStaticfalse"
+accessprivate*appointment2Ç
+java.util.ListTYPEj
+`D:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Doctor.java (2Æ
+1org.avi1606.hospital_managment.entity.AppointmentTYPE_ARGUMENTj
+`D:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Doctor.java (Ñ
+Dorg.avi1606.hospital_managment.entity.Doctor?departments@34.30:34.41VARIABLEj
+`D:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Doctor.java" "()"
+isFinalfalse"
+typeList<Deparatment>"Ø
+declarationStringô<mark class="modifier">private </mark>List<Deparatment> <mark class="class-field">departments</mark> = "doctors")
+private List<Deparatment> departments;"
+isStaticfalse"
+accessprivate*departments2Ç
+java.util.ListTYPEj
+`D:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Doctor.java" "(2Æ
+1org.avi1606.hospital_managment.entity.DeparatmentTYPE_ARGUMENTj
+`D:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Doctor.java" "(

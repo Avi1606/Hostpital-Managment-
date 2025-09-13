@@ -1,0 +1,60 @@
+
+eD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Deparatment.java¥
+1org.avi1606.hospital_managment.entity.DeparatmentCLASSo
+eD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Deparatment.java ("0
+package%org.avi1606.hospital_managment.entity"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"›
+declarationString«<mark class="annotation">@Entity</mark> <br><mark class="annotation">@Getter</mark> <br><mark class="annotation">@Setter</mark> <br><mark class="annotation">@AllArgsConstructor</mark> <br><mark class="annotation">@NoArgsConstructor</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>Deparatment"
+accesspublic*Deparatment2¿
+@org.avi1606.hospital_managment.entity.Deparatment?id@19.17:19.19DECLARATIONo
+eD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Deparatment.java (2¬
+Borg.avi1606.hospital_managment.entity.Deparatment?name@21.19:21.23DECLARATIONo
+eD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Deparatment.java (2»
+Horg.avi1606.hospital_managment.entity.Deparatment?headDoctor@24.19:24.29DECLARATIONo
+eD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Deparatment.java (2≈
+Eorg.avi1606.hospital_managment.entity.Deparatment?doctors@32.25:32.32DECLARATIONo
+eD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Deparatment.java   ( Æ
+@org.avi1606.hospital_managment.entity.Deparatment?id@19.17:19.19VARIABLEo
+eD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Deparatment.java ("
+isFinalfalse"
+typeLong"ê
+declarationString{<mark class="modifier">private </mark>Long <mark class="class-field">id</mark> = GenerationType.IDENTITY)
+private Long id;"
+isStaticfalse"
+accessprivate*id2ë
+jakarta.persistence.LongTYPEo
+eD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Deparatment.java (å
+Borg.avi1606.hospital_managment.entity.Deparatment?name@21.19:21.23VARIABLEo
+eD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Deparatment.java ("
+isFinalfalse"
+typeString"g
+declarationStringR<mark class="modifier">private </mark>String <mark class="class-field">name</mark>"
+isStaticfalse"
+accessprivate*name2ì
+jakarta.persistence.StringTYPEo
+eD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Deparatment.java (∞
+Horg.avi1606.hospital_managment.entity.Deparatment?headDoctor@24.19:24.29VARIABLEo
+eD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Deparatment.java ("
+isFinalfalse"
+typeDoctor"m
+declarationStringX<mark class="modifier">private </mark>Doctor <mark class="class-field">headDoctor</mark>"
+isStaticfalse"
+accessprivate*
+headDoctor2•
+,org.avi1606.hospital_managment.entity.DoctorTYPEo
+eD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Deparatment.java (ô
+Eorg.avi1606.hospital_managment.entity.Deparatment?doctors@32.25:32.32VARIABLEo
+eD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Deparatment.java   ( "
+isFinalfalse"
+typeList<Doctor>"¬
+declarationString¨<mark class="modifier">private </mark>List<Doctor> <mark class="class-field">doctors</mark> = "my_dpt_doctors"<mark class="modifier">,</mark> joinColumns = @JoinColumn(name = "dpt_id")<mark class="modifier">,</mark> inverseJoinColumns = @JoinColumn(name = "doctor_id"))
+private List<Doctor> doctors;"
+isStaticfalse"
+accessprivate*doctors2á
+java.util.ListTYPEo
+eD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Deparatment.java   (2Æ
+,org.avi1606.hospital_managment.entity.DoctorTYPE_ARGUMENTo
+eD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\entity\Deparatment.java   (

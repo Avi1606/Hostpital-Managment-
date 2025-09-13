@@ -1,0 +1,11 @@
+
+iD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\dto\PatientResponseDto.java·
+5org.avi1606.hospital_managment.dto.PatientResponseDtoCLASSs
+iD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\dto\PatientResponseDto.java ("-
+package"org.avi1606.hospital_managment.dto"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"p
+declarationString[<mark class="modifier">public </mark><mark class="modifier">class </mark>PatientResponseDto"
+accesspublic*PatientResponseDto

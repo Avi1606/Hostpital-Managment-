@@ -1,0 +1,24 @@
+
+tD:\FS Project\Hospital_Managment\src\test\java\org\avi1606\hospital_managment\HospitalManagmentApplicationTests.javaÅ
+@org.avi1606.hospital_managment.HospitalManagmentApplicationTestsCLASS~
+tD:\FS Project\Hospital_Managment\src\test\java\org\avi1606\hospital_managment\HospitalManagmentApplicationTests.java ('")
+packageorg.avi1606.hospital_managment"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"Æ
+declarationStringò<mark class="annotation">@SpringBootTest</mark> <br><mark class="modifier"> </mark><mark class="modifier">class </mark>HospitalManagmentApplicationTests"
+accesspackage_private*!HospitalManagmentApplicationTests2ﬁ
+Oorg.avi1606.hospital_managment.HospitalManagmentApplicationTests.contextLoads()DECLARATION~
+tD:\FS Project\Hospital_Managment\src\test\java\org\avi1606\hospital_managment\HospitalManagmentApplicationTests.java		 	(è
+Oorg.avi1606.hospital_managment.HospitalManagmentApplicationTests.contextLoads()METHOD~
+tD:\FS Project\Hospital_Managment\src\test\java\org\avi1606\hospital_managment\HospitalManagmentApplicationTests.java		 	("
+isFinalfalse"¨
+declarationStringñ<mark class="annotation">@Test</mark> <br><mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">contextLoads</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*contextLoads2ì
+voidRETURN_TYPE~
+tD:\FS Project\Hospital_Managment\src\test\java\org\avi1606\hospital_managment\HospitalManagmentApplicationTests.java	 	(

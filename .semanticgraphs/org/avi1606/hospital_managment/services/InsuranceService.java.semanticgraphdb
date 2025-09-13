@@ -1,0 +1,92 @@
+
+lD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\services\InsuranceService.javaâ
+
+8org.avi1606.hospital_managment.services.InsuranceServiceCLASSv
+lD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\services\InsuranceService.java ("2
+package'org.avi1606.hospital_managment.services"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"Ÿ
+declarationString√<mark class="annotation">@Service</mark> <br><mark class="annotation">@RequiredArgsConstructor</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>InsuranceService"
+accesspublic*InsuranceService2ö
+íorg.avi1606.hospital_managment.services.InsuranceService.assignInsuranceToPatient(org.avi1606.hospital_managment.entity.Insurance, java.lang.Long)DECLARATIONv
+lD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\services\InsuranceService.java (+2ﬂ
+Xorg.avi1606.hospital_managment.services.InsuranceService?insuranceRepository@16.38:16.57DECLARATIONv
+lD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\services\InsuranceService.java& (92›
+Vorg.avi1606.hospital_managment.services.InsuranceService?patientRepository@17.36:17.53DECLARATIONv
+lD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\services\InsuranceService.java$ (5É
+íorg.avi1606.hospital_managment.services.InsuranceService.assignInsuranceToPatient(org.avi1606.hospital_managment.entity.Insurance, java.lang.Long)METHODv
+lD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\services\InsuranceService.java (+"
+isFinalfalse"ã
+declarationStringı<mark class="annotation">@Transactional</mark> <br><mark class="modifier">public </mark>Patient <mark class="method">assignInsuranceToPatient</mark>(Insurance insurance<mark class="modifier"><mark class="modifier">,</mark></mark> Long patientId)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typePatient*assignInsuranceToPatient2÷
+Vorg.avi1606.hospital_managment.services.InsuranceService?patientRepository@17.36:17.53CALLv
+lD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\services\InsuranceService.java (+2ù
+úorg.avi1606.hospital_managment.services.InsuranceService.assignInsuranceToPatient(org.avi1606.hospital_managment.entity.Insurance, java.lang.Long)!patientIdCALLv
+lD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\services\InsuranceService.java5 (>2ß
+¶org.avi1606.hospital_managment.services.InsuranceService.assignInsuranceToPatient(org.avi1606.hospital_managment.entity.Insurance, java.lang.Long)?patient@21.16:21.23CALLv
+lD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\services\InsuranceService.java (2ù
+úorg.avi1606.hospital_managment.services.InsuranceService.assignInsuranceToPatient(org.avi1606.hospital_managment.entity.Insurance, java.lang.Long)!insuranceCALLv
+lD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\services\InsuranceService.java (&2ù
+úorg.avi1606.hospital_managment.services.InsuranceService.assignInsuranceToPatient(org.avi1606.hospital_managment.entity.Insurance, java.lang.Long)!insuranceCALLv
+lD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\services\InsuranceService.java (2ß
+¶org.avi1606.hospital_managment.services.InsuranceService.assignInsuranceToPatient(org.avi1606.hospital_managment.entity.Insurance, java.lang.Long)?patient@21.16:21.23CALLv
+lD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\services\InsuranceService.java ($2ß
+¶org.avi1606.hospital_managment.services.InsuranceService.assignInsuranceToPatient(org.avi1606.hospital_managment.entity.Insurance, java.lang.Long)?patient@21.16:21.23CALLv
+lD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\services\InsuranceService.java (2¢
+úorg.avi1606.hospital_managment.services.InsuranceService.assignInsuranceToPatient(org.avi1606.hospital_managment.entity.Insurance, java.lang.Long)!insurance	PARAMETERv
+lD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\services\InsuranceService.java6 (?2¢
+úorg.avi1606.hospital_managment.services.InsuranceService.assignInsuranceToPatient(org.avi1606.hospital_managment.entity.Insurance, java.lang.Long)!patientId	PARAMETERv
+lD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\services\InsuranceService.javaF (O2Æ
+¶org.avi1606.hospital_managment.services.InsuranceService.assignInsuranceToPatient(org.avi1606.hospital_managment.entity.Insurance, java.lang.Long)?patient@21.16:21.23DECLARATIONv
+lD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\services\InsuranceService.java (2¥
+-org.avi1606.hospital_managment.entity.PatientRETURN_TYPEv
+lD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\services\InsuranceService.java (÷	
+¶org.avi1606.hospital_managment.services.InsuranceService.assignInsuranceToPatient(org.avi1606.hospital_managment.entity.Insurance, java.lang.Long)?patient@21.16:21.23VARIABLEv
+lD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\services\InsuranceService.java ("
+typePatient"
+isFinalfalse"”
+declarationStringΩ<mark class="modifier"> </mark>Patient <mark class="class-field">patient</mark> = patientRepository.findById(patientId).orElseThrow(() -> new EntityNotFoundException("Patient not found !"))*patient2≠
+-org.avi1606.hospital_managment.entity.PatientTYPEv
+lD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\services\InsuranceService.java (2÷
+Vorg.avi1606.hospital_managment.services.InsuranceService?patientRepository@17.36:17.53CALLv
+lD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\services\InsuranceService.java (+2ù
+úorg.avi1606.hospital_managment.services.InsuranceService.assignInsuranceToPatient(org.avi1606.hospital_managment.entity.Insurance, java.lang.Long)!patientIdCALLv
+lD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\services\InsuranceService.java5 (>Æ
+úorg.avi1606.hospital_managment.services.InsuranceService.assignInsuranceToPatient(org.avi1606.hospital_managment.entity.Insurance, java.lang.Long)!insurance	PARAMETERv
+lD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\services\InsuranceService.java6 (?"
+type	Insurance"
+isFinalfalse"(
+declarationStringInsurance insurance*	insurance2Ø
+/org.avi1606.hospital_managment.entity.InsuranceTYPEv
+lD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\services\InsuranceService.java, (5É
+úorg.avi1606.hospital_managment.services.InsuranceService.assignInsuranceToPatient(org.avi1606.hospital_managment.entity.Insurance, java.lang.Long)!patientId	PARAMETERv
+lD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\services\InsuranceService.javaF (O"
+typeLong"
+isFinalfalse"#
+declarationStringLong patientId*	patientId2é
+java.lang.LongTYPEv
+lD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\services\InsuranceService.javaA (E≠
+Xorg.avi1606.hospital_managment.services.InsuranceService?insuranceRepository@16.38:16.57VALUEv
+lD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\services\InsuranceService.java& (9"
+isFinaltrue"
+typeInsuranceRepository"®
+declarationStringí<mark class="modifier">private </mark><mark class="modifier">final </mark>InsuranceRepository <mark class="class-field">insuranceRepository</mark>"
+isStaticfalse"
+accessprivate*insuranceRepository2Ω
+=org.avi1606.hospital_managment.repository.InsuranceRepositoryTYPEv
+lD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\services\InsuranceService.java (%°
+Vorg.avi1606.hospital_managment.services.InsuranceService?patientRepository@17.36:17.53VALUEv
+lD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\services\InsuranceService.java$ (5"
+isFinaltrue"
+typePatientRepository"§
+declarationStringé<mark class="modifier">private </mark><mark class="modifier">final </mark>PatientRepository <mark class="class-field">patientRepository</mark>"
+isStaticfalse"
+accessprivate*patientRepository2ª
+;org.avi1606.hospital_managment.repository.PatientRepositoryTYPEv
+lD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\services\InsuranceService.java (#

@@ -1,0 +1,17 @@
+
+sD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\repository\AppointmentRepository.javaÙ
+?org.avi1606.hospital_managment.repository.AppointmentRepositoryTRAIT}
+sD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\repository\AppointmentRepository.java (&"4
+package)org.avi1606.hospital_managment.repository"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"¿
+declarationString©<mark class="modifier">public </mark><mark class="modifier">interface </mark>AppointmentRepository<mark class="modifier"> extends </mark>JpaRepository<Appointment, Long>"
+accesspublic*AppointmentRepository2¾
+5org.springframework.data.jpa.repository.JpaRepositoryEXTEND}
+sD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\repository\AppointmentRepository.java/ (<2È
+1org.avi1606.hospital_managment.entity.AppointmentEXTEND_TYPE_ARGUMENT}
+sD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\repository\AppointmentRepository.java= (H2¥
+java.lang.LongEXTEND_TYPE_ARGUMENT}
+sD:\FS Project\Hospital_Managment\src\main\java\org\avi1606\hospital_managment\repository\AppointmentRepository.javaJ (N
