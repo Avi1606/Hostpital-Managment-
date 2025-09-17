@@ -1,6 +1,6 @@
 package org.avi1606.hospital_managment.entity.type;
 
-public enum bloodGroup {
+public enum BloodGroupType {
     A_POSITIVE,
     A_NEGATIVE,
     B_POSITIVE,

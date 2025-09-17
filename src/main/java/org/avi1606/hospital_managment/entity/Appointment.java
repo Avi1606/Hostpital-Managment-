@@ -1,10 +1,7 @@
 package org.avi1606.hospital_managment.entity;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.RequiredArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 import org.hibernate.annotations.CurrentTimestamp;
 
 import java.time.LocalDateTime;
@@ -14,6 +11,7 @@ import java.time.LocalDateTime;
 @Setter
 @RequiredArgsConstructor
 @AllArgsConstructor
+@Builder
 public class Appointment {
 
     @Id

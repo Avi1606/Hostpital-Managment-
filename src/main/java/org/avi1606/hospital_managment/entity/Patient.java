@@ -3,7 +3,7 @@ package org.avi1606.hospital_managment.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
-import org.avi1606.hospital_managment.entity.type.bloodGroup;
+import org.avi1606.hospital_managment.entity.type.BloodGroupType;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -37,7 +37,7 @@ public class Patient {
 
     @Enumerated(EnumType.STRING)
     @Column(name = "blood_group")
-    private bloodGroup bloodGroup;
+    private BloodGroupType BloodGroupType;
 
     @OneToOne(cascade = {CascadeType.MERGE,CascadeType.PERSIST})
     @JoinColumn(name = "patient_insurance_id")

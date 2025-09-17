@@ -21,7 +21,7 @@ public class AppointmentServices {
     private final AppointmentRepository appointmentRepository;
 
     @Transactional
-    public void createNewAppointment(Appointment appointment, Long doctorId, Long patientId) {
+    public Appointment createNewAppointment(Appointment appointment, Long doctorId, Long patientId) {
         Doctor doctor = doctorRepository.findById(doctorId).orElseThrow(() -> new IllegalArgumentException("Doctor not found"));
         Patient patient = patientRepository.findById(patientId).orElseThrow(() -> new IllegalArgumentException("Patient not found"));
 
@@ -31,5 +31,19 @@ public class AppointmentServices {
 
         appointmentRepository.save(appointment);
 
+        patient.getAppointment().add(appointment);  //bi-directional relationship
+        return appointmentRepository.save(appointment);
+    }
+
+    @Transactional
+    public Appointment reAssignAppointment(Long appointmentId ,Long doctorId){
+        Doctor doctor = doctorRepository.findById(doctorId).orElseThrow(() ->new IllegalArgumentException("Doctor not found"));
+        Appointment appointment = appointmentRepository.findById(appointmentId).orElseThrow(() ->new IllegalArgumentException("Appointment not found"));
+
+        appointment.setDoctor(doctor); // this time it will be update call because we made doctor dirty
+
+        doctor.getAppointment().add(appointment);
+
+        return appointmentRepository.save(appointment);
     }
 }

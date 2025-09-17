@@ -23,7 +23,7 @@ public class Doctor {
     private String name;
 
     @Column(nullable = false)
-    private String specializatio;
+    private String specialization;
 
     @Column(nullable = false,unique = true)
     private String email;
@@ -34,4 +34,3 @@ public class Doctor {
     @ManyToMany(mappedBy = "doctors")
     private List<Deparatment> departments;
 }
-
