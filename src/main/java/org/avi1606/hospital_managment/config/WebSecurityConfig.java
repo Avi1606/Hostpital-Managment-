@@ -13,8 +13,8 @@ public class WebSecurityConfig {
     public SecurityFilterChain securityFilterChain(HttpSecurity httpSecurity) throws Exception {
         httpSecurity
                 .authorizeHttpRequests(auth ->auth
-                        .requestMatchers("/api/v1/admin/**").authenticated()
-                        .requestMatchers("api/v1/public/**").permitAll()
+                        .requestMatchers("/admin/**").authenticated()
+                        .requestMatchers("/public/**").permitAll()
                 )
                 .formLogin(Customizer.withDefaults());
         return httpSecurity.build();

@@ -6,12 +6,14 @@ import org.avi1606.hospital_managment.services.PatientServices;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
 
 @Controller
 @RequiredArgsConstructor
+@RequestMapping("/public")
 public class AdminController {
 
     private final PatientServices patientServices;
