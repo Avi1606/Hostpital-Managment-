@@ -3,6 +3,7 @@ package org.avi1606.hospital_managment.controllers;
 import lombok.RequiredArgsConstructor;
 import org.avi1606.hospital_managment.dto.LoginRequestDto;
 import org.avi1606.hospital_managment.dto.LoginResponseDto;
+import org.avi1606.hospital_managment.dto.SignupResponseDto;
 import org.avi1606.hospital_managment.security.AuthService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -18,9 +19,15 @@ public class AuthController {
     private final AuthService authService;
 
     @PostMapping("/login")
-    public ResponseEntity<LoginResponseDto> login(@RequestBody LoginRequestDto loginRequastDto){
-        return ResponseEntity.ok(authService.login(loginRequastDto));
+    public ResponseEntity<LoginResponseDto> login(@RequestBody LoginRequestDto loginRequestDto){
+        return ResponseEntity.ok(authService.login(loginRequestDto));
     }
+
+    @PostMapping("/signup")
+    public ResponseEntity<SignupResponseDto> signup(@RequestBody LoginRequestDto signupRequest){
+        return ResponseEntity.ok(authService.signup(signupRequest));
+    }
+
 
 
 
